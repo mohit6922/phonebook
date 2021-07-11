@@ -1,0 +1,32 @@
+.search-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 50px;
+  * {
+    min-height: 50px;
+  }
+  .search-box__input {
+    color: var(--background);
+    font-size: 1.2em;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    padding: 5px;
+    flex: 80%;
+  }
+  .search-box__btn {
+    padding: 5px;
+    border: 1px solid var(--success);
+    background-color: var(--success);
+    font-size: 1.2em;
+    font-weight: 500;
+    flex: 10%;
+    transition: 0.1s;
+    &:hover {
+      cursor: pointer;
+      background-color: var(--foreground);
+      color: var(--success);
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.card-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+  padding: 5px;
+  .card-item {
+    flex: 0 0 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--foreground);
+    margin: 5px 0px 5px 0px;
+    padding: 5px;
+    border-radius: 5px;
+    * {
+      color: var(--primary);
+    }
+    img {
+      border-radius: 50%;
+      height: 50px;
+    }
+    .primary {
+      font-size: 1.5em;
+    }
+    .phone {
+      display: flex;
+      flex-direction: column;
+      .secondary {
+        font-size: 1.3em;
+      }
+    }
+    .info {
+      background-color: var(--foreground);
+      border: none;
+      font-weight: 900;
+      font-size: 2em;
+      transition: 0.3s;
+      outline: none;
+      &:hover {
+        text-shadow: 0px 0px 10px var(--primary);
+        color: var(--background);
+      }
+    }
+  }
+}

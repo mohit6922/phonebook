@@ -1,0 +1,9 @@
+:root {
+  --primary: #e71d36ff;
+  --active: #af4319ff;
+  --disabled: #772014ff;
+  --secondary: #3f220fff;
+  --foreground: #ffffffff;
+  --background: #19180aff;
+  --success: #4bb543ff;
+}

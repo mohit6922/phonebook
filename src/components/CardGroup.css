@@ -1,0 +1,80 @@
+.card-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 5px;
+}
+
+.card-group .card-item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 250px;
+          flex: 0 0 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: var(--foreground);
+  margin: 5px 0px 5px 0px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.card-group .card-item * {
+  color: var(--primary);
+}
+
+.card-group .card-item img {
+  border-radius: 50%;
+  height: 50px;
+}
+
+.card-group .card-item .primary {
+  font-size: 1.5em;
+}
+
+.card-group .card-item .phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card-group .card-item .phone .secondary {
+  font-size: 1.3em;
+}
+
+.card-group .card-item .info {
+  background-color: var(--foreground);
+  border: none;
+  font-weight: 900;
+  font-size: 2em;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  outline: none;
+}
+
+.card-group .card-item .info:hover {
+  text-shadow: 0px 0px 10px var(--primary);
+  color: var(--background);
+}
+/*# sourceMappingURL=CardGroup.css.map */

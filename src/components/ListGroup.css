@@ -1,0 +1,74 @@
+.list-group {
+  padding: 5px;
+}
+
+.list-group .list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  background-color: var(--foreground);
+  margin: 5px 0px 5px 0px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.list-group .list-item * {
+  color: var(--primary);
+}
+
+.list-group .list-item img {
+  -webkit-box-flex: 5%;
+      -ms-flex: 5%;
+          flex: 5%;
+  border-radius: 50%;
+  max-height: 50px;
+}
+
+.list-group .list-item .primary {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  font-size: 1.5em;
+}
+
+.list-group .list-item .phone {
+  -webkit-box-flex: 40%;
+      -ms-flex: 40%;
+          flex: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.list-group .list-item .phone .secondary {
+  font-size: 1.3em;
+}
+
+.list-group .list-item .info {
+  -webkit-box-flex: 5%;
+      -ms-flex: 5%;
+          flex: 5%;
+  background-color: var(--foreground);
+  border: none;
+  font-weight: 900;
+  font-size: 2em;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  outline: none;
+}
+
+.list-group .list-item .info:hover {
+  text-shadow: 0px 0px 10px var(--primary);
+  color: var(--background);
+}
+/*# sourceMappingURL=ListGroup.css.map */

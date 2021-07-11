@@ -1,0 +1,66 @@
+.header {
+  position: fixed;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  height: 60px;
+  padding: 5px 10px;
+  background-color: var(--active);
+  color: var(--foreground);
+}
+
+.header .brand {
+  padding: 0 4px;
+}
+
+.header .brand * {
+  margin: 0px 5px;
+}
+
+.header .brand .brand_logo {
+  max-height: 50px;
+  border-radius: 50%;
+}
+
+.header .brand .brand_name {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 800;
+  font-size: 2.5em;
+}
+
+.header .brand:hover {
+  cursor: pointer;
+}
+
+.header .profile {
+  padding: 0 4px;
+}
+
+.header .profile button {
+  padding: 5px 10px;
+  min-height: 40px;
+  outline: none;
+  border-radius: 5%;
+  border: 1px solid var(--foreground);
+  color: var(--secondary);
+  background-color: var(--foreground);
+  font-size: 1.2em;
+  font-weight: 600;
+  -webkit-transition: 0.05s ease-in;
+  transition: 0.05s ease-in;
+}
+
+.header .profile button:hover {
+  cursor: pointer;
+  color: var(--foreground);
+  background-color: var(--secondary);
+}
+/*# sourceMappingURL=Header.css.map */
